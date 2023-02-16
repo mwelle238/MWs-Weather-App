@@ -14,12 +14,14 @@
 
     <main class="container-fluid row">
         <section class="row">
-            <div class="col-12 col-sm-4 col-md-3 ml-2">
+            <div class="col-12 col-sm-4 col-md-3 ml-2 mb-5">
                 <h1>Search for a City</h1>
                 <form id="city-search" class="card-body">
-                  <input name="city" id="city" type="text" autofocus="true" class="form-input" />
-                  <button type="submit" class="btn btn-primary">Get Weather</button>
+                  <input name="city" id="city" type="text" autofocus="true" class="form-control lh-lg mb-2"/>
+                  <button type="submit" class="btn btn-primary form-control">Get Weather</button>
                 </form>
+                <hr>
+                <h2>Past Searches</h2>
                 <hr>
                 <button class="btn btn-block btn-info search-history col-12 pb-1 mb-1" data-num="0" style="visibility: hidden;">Learn more.</button>
                 <button class="btn btn-block btn-info search-history col-12 pb-1 mb-1" data-num="1" style="visibility: hidden;">Learn more.</button>
@@ -27,81 +29,99 @@
                 <button class="btn btn-block btn-info search-history col-12 pb-1 mb-1" data-num="3" style="visibility: hidden;">Learn more.</button>
                 <button class="btn btn-block btn-info search-history col-12 pb-1 mb-1" data-num="4" style="visibility: hidden;">Learn more.</button>
             </div>
+            <div class="col-12 col-sm-8 col-md-9 text-light" id="instruction">
+              <h2>Enter the name of a city to find the current weather and 5-day forecast or click on a recent search button to bring up the forecast for that city.</h2>
+            </div>
             <div class="col-12 col-sm-8 col-md-9 text-dark d-none" id="results">
                 <h2 id="place" class="text-light">City Name</h2>
                 <section class="row justify-content-left">
                     <div class="col-12 mb-3">
                         <div class="card weather-card">
                           <h3 class="card-header bg-warning">
-                            Today
                           </h3>
                           <div class="row card-body">
                             <img class="col-4 md-col-3 lg-col-2 xl-col-1" src=""/>
                             <p class="card-text col-8 h1">High: <span class="temp-high"></span>
                                 <br>Low: <span class="temp-low"></span>
                                 <br>Humidity: <span class="humidity"></span>
+                                <br>Wind: <span class="wind"></span>
                                 <br><span class="weather-desc"></span>
                             </p>
                           </div>
                         </div>
                     </div>                  
                 </section>
-                <section class="row justify-content-left">
-                    <div class="col-12 col-md-6 col-xxl-3 mb-3">
+                <section class="row justify-content-around">
+                    <div class="col-6 col-lg-4 col-xl-2 mb-3">
                         <div class="card weather-card">
                           <h3 class="card-header bg-warning text-dark">
-                            Today
                           </h3>
                           <div class="row card-body">
-                            <img class="col-4" src=""/>
-                            <p class="card-text col-8">High: <span class="temp-high"></span>
+                            <img class="col-12" src=""/>
+                            <p class="card-text col-12 h6">High: <span class="temp-high"></span>
                                 <br>Low: <span class="temp-low"></span>
                                 <br>Humidity: <span class="humidity"></span>
+                                <br>Wind:<span class="wind"></span>
                                 <br><span class="weather-desc"></span>
                             </p>
                           </div>
                         </div>
                       </div>
-                      <div class="col-12 col-md-6 col-xxl-3 mb-3">
+                      <div class="col-6 col-lg-4 col-xl-2 mb-3">
                         <div class="card weather-card">
                           <h3 class="card-header bg-warning text-dark">
-                            Today
                           </h3>
                           <div class="row card-body">
-                            <img class="col-4" src=""/>
-                            <p class="card-text col-8">High: <span class="temp-high"></span>
+                            <img class="col-12" src=""/>
+                            <p class="card-text col-12 h6">High: <span class="temp-high"></span>
                                 <br>Low: <span class="temp-low"></span>
                                 <br>Humidity: <span class="humidity"></span>
+                                <br>Wind:<span class="wind"></span>
                                 <br><span class="weather-desc"></span>
                             </p>
                           </div>
                         </div>
                       </div>                  
-                      <div class="col-12 col-md-6 col-xxl-3 mb-3">
+                      <div class="col-6 col-lg-4 col-xl-2 mb-3">
                         <div class="card weather-card">
                           <h3 class="card-header bg-warning text-dark">
-                            Today
                           </h3>
                           <div class="row card-body">
-                            <img class="col-4" src=""/>
-                            <p class="card-text col-8">High: <span class="temp-high"></span>
+                            <img class="col-12" src=""/>
+                            <p class="card-text col-12 h6">High: <span class="temp-high"></span>
                                 <br>Low: <span class="temp-low"></span>
                                 <br>Humidity: <span class="humidity"></span>
+                                <br>Wind:<span class="wind"></span>
                                 <br><span class="weather-desc"></span>
                             </p>
                           </div>
                         </div>
                       </div>                  
-                      <div class="col-12 col-md-6 col-xxl-3 mb-3">
+                      <div class="col-6 col-lg-4 col-xl-2 mb-3">
                         <div class="card weather-card">
                           <h3 class="card-header bg-warning text-dark">
-                            Today
                           </h3>
                           <div class="row card-body">
-                            <img class="col-4" src=""/>
-                            <p class="card-text col-8">High: <span class="temp-high"></span>
+                            <img class="col-12" src=""/>
+                            <p class="card-text col-12 h6">High: <span class="temp-high"></span>
                                 <br>Low: <span class="temp-low"></span>
                                 <br>Humidity: <span class="humidity"></span>
+                                <br>Wind:<span class="wind"></span>
+                                <br><span class="weather-desc"></span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 col-lg-4 col-xl-2 mb-3">
+                        <div class="card weather-card">
+                          <h3 class="card-header bg-warning text-dark">
+                          </h3>
+                          <div class="row card-body">
+                            <img class="col-12" src=""/>
+                            <p class="card-text col-12 h6">High: <span class="temp-high"></span>
+                                <br>Low: <span class="temp-low"></span>
+                                <br>Humidity: <span class="humidity"></span>
+                                <br>Wind:<span class="wind"></span>
                                 <br><span class="weather-desc"></span>
                             </p>
                           </div>

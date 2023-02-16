@@ -13,8 +13,6 @@ var placeEL = $('#place');
 var weatherCards = $('.weather-card');
 var historyButtons = $('.search-history');
 var searchHistory = JSON.parse(localStorage.getItem('searchHistory'));
-console.log(weatherCards);
-console.log(placeEL);
 
 function getForecast(){
     if(city){
@@ -43,9 +41,6 @@ function getForecast(){
             })
             .then(function (data) {
                 //console.log(data);
-
-              
-
               for(let i=0; i<weatherCards.length; i++){
                 // get wind speed and direction
                 let windInfo = data.daily[i].wind_speed;
@@ -95,7 +90,7 @@ function saveSearch(search){
 // search history buttons only show if they exist
 function showHistory(){
     if(!searchHistory) searchHistory = [];  
-    console.log(searchHistory);
+   //console.log(searchHistory);
     for (let i=0; i<searchHistory.length; i++ ){
       historyButtons[i].style.visibility = "visible";
       historyButtons[i].textContent = searchHistory[i];

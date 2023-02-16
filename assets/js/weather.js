@@ -6,7 +6,7 @@ var lon;
 var lat;
 var state;
 var country;
-const iconURLprefix = 'http://openweathermap.org/img/wn/';
+const iconURLprefix = 'https://openweathermap.org/img/wn/';
 var resultsEl = $('#results');
 var instructionEl = $('#instruction');
 var placeEL = $('#place');

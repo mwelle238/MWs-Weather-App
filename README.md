@@ -27,3 +27,7 @@ Please refer to the LICENSE in the repo.
 
 ## Screenshots
 
+![open page mobile snip](https://github.com/mwelle238/MWs-weather-app/blob/main/screenshots/image1.JPG?raw=true)
+![after search page mobile snip](https://github.com/mwelle238/MWs-weather-app/blob/main/screenshots/image2.JPG?raw=true)
+![after search page desktop snip](https://github.com/mwelle238/MWs-weather-app/blob/main/screenshots/image3.JPG?raw=true)
+

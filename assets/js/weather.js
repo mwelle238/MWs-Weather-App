@@ -1,4 +1,4 @@
-var geoURL = 'http://api.openweathermap.org/geo/1.0/direct?q=';
+var geoURL = 'https://api.openweathermap.org/geo/1.0/direct?q=';
 var weatherURL = 'https://api.openweathermap.org/data/3.0/onecall?';
 var city;
 var APIkey = '&appid=5a2b8d33311dc86fb5608e194db81f27';

@@ -11,10 +11,10 @@ N/A
 ## Usage
 
 Deployed Website
-https://mwelle238.github.io/MWs-weather-app/
+https://mwelle238.github.io/MWs-Weather-App/
 
 GitHub link
-https://github.com/mwelle238/MWs-weather-app
+https://github.com/mwelle238/MWs-Weather-App
 
 
 ## Credits
